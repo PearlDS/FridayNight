@@ -71,7 +71,7 @@ public class Customer {
 
 
     public boolean feelingConfident(){
-        //check if they drank more than 5 beers or cocktails and if they have a condom
+        //check if they drank more than 5 drinks and if they have a condom
         return false;
     }
 
