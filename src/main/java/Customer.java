@@ -5,6 +5,7 @@ public class Customer {
     private double euros;
     private boolean hasCondom;
     private int beersThatTheyDrunk;
+    private int cocktailsThatTheyDrunk;
     private final double tippingAmount = 1.50;
 
     public Customer() {
@@ -59,10 +60,18 @@ public class Customer {
     public void setBeersThatTheyDrunk(int beersThatTheyDrunk) {
         this.beersThatTheyDrunk = beersThatTheyDrunk;
     }
+    
+     public int getCocktailsThatTheyDrunk() {
+        return cocktailsThatTheyDrunk;
+    }
+
+    public void setCocktailsThatTheyDrunk(int cocktailsThatTheyDrunk) {
+        this.cocktailsThatTheyDrunk = cocktailsThatTheyDrunk;
+    }
 
 
     public boolean feelingConfident(){
-        //check if they drank more than 5 beers and if they have a condom
+        //check if they drank more than 5 beers or cocktails and if they have a condom
         return false;
     }
 
